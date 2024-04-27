@@ -1,8 +1,7 @@
 package vehiculo;
 
 /**
- *
- * @author
+ * @author Samuel
  */
 public class VehiculoXXX2223 {
 
@@ -19,9 +18,9 @@ public class VehiculoXXX2223 {
     
     /**
      * Constructor con argumentos
-     * @param nom
-     * @param precio
-     * @param stock 
+     * @param nom El nombre del vehículo
+     * @param precio El precio al que se encuentra el vehículo
+     * @param stock El stock del que se dispone del vehículo
      */
     public VehiculoXXX2223(String nom, double precio, int stock) {
         this.nombre = nom;
@@ -30,6 +29,7 @@ public class VehiculoXXX2223 {
     }
 
     /**
+     * Getter para el atributo nombre
      * @return the nombre
      */
     public String getNombre() {
@@ -37,6 +37,7 @@ public class VehiculoXXX2223 {
     }
 
     /**
+     * Setter para el atributo nombre
      * @param nombre the nombre to set
      */
     public void setNombre(String nombre) {
@@ -44,6 +45,7 @@ public class VehiculoXXX2223 {
     }
 
     /**
+     * Getter para el atributo precio
      * @return the precio
      */
     public double getPrecio() {
@@ -51,6 +53,7 @@ public class VehiculoXXX2223 {
     }
 
     /**
+     * Setter para el atributo precio
      * @param precio the precio to set
      */
     public void setPrecio(double precio) {
@@ -58,6 +61,7 @@ public class VehiculoXXX2223 {
     }
 
     /**
+     * Getter para el atributo precioIVA
      * @return the precioIVA
      */
     public double getPrecioIVA() {
@@ -65,6 +69,7 @@ public class VehiculoXXX2223 {
     }
 
     /**
+     * Setter para el atributo precioIVA
      * @param precioIVA the precioIVA to set
      */
     public void setPrecioIVA(double precioIVA) {
@@ -72,6 +77,7 @@ public class VehiculoXXX2223 {
     }
 
     /**
+     * Getter para el atributo stock
      * @return the stock
      */
     public int getStock() {
@@ -79,6 +85,7 @@ public class VehiculoXXX2223 {
     }
 
     /**
+     * Setter para el atributo stock
      * @param stock the stock to set
      */
     public void setStock(int stock) {
@@ -95,7 +102,7 @@ public class VehiculoXXX2223 {
 
     /**
      * Método que me devuelve el nombre del vehiculo
-     * @return
+     * @return nom
      */
     public String obtenerNombre() {
         return getNombre();
@@ -103,7 +110,7 @@ public class VehiculoXXX2223 {
 
     /**
      * Método que me devuelve el stock de vehiculos disponible en cada momento
-     * @return
+     * @return stock
      */
     public int obtenerStock() {
         return getStock();

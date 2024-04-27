@@ -1,8 +1,7 @@
 package vehiculo;
 
 /**
- *
- * @author
+ * @author Samuel
  */
 public class Main {
 
@@ -18,6 +17,10 @@ public class Main {
         System.out.println("El stock actual es " + stockActual);
     }
 
+    /**
+     * Función para comprar y vender un vehículo que le pasamos por parámetro
+     * @param miVehiculoXXX2223 Objeto de la clase VehiculoXXX2223
+     */
     public static void operativaVehiculosXXX2223(VehiculoXXX2223 miVehiculoXXX2223) {
         try {
             System.out.println("Venta de Vehiculos");
